@@ -1,5 +1,5 @@
-/* Lógico_2: */
-
+CREATE DATABASE banco;
+use banco;
 CREATE TABLE usuario (
     id INT PRIMARY KEY,
     nome VARCHAR(100),
