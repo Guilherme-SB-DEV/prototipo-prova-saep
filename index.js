@@ -1,4 +1,10 @@
 const express = require("express")
 
 
-express.
+const app = express()
+
+app.get('/cadastro', (req, res)=>{
+
+    res.render('cadastro.html')
+
+})
