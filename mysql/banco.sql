@@ -8,6 +8,7 @@ CREATE TABLE usuario (
 
 CREATE TABLE tarefa (
     id INT PRIMARY KEY,
+    nome VARCHAR(100),
     descricao VARCHAR(100),
     setor VARCHAR(100),
     status VARCHAR(100),
